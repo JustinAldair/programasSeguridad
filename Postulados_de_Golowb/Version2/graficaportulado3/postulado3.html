@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gráfica de datos binarios</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Gráfica de datos binarios</h1>
+    <p>Ingresa tus datos binarios (0 o 1) o carga un archivo de texto:</p>
+    <textarea id="binaryInput" rows="5" cols="50" placeholder="Ingresa los datos binarios aquí..."></textarea>
+    <br /><br />
+    <input type="file" id="fileInput" accept=".txt" />
+    <br /><br />
+    <button onclick="generateChart()">Generar gráfica</button>
+    <br /><br />
+    <div class="chart-container">
+        <canvas id="chartCanvas"></canvas>
+    </div>
+    <div id="dpValues"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+h1, h2 {
+  text-align: center;
+}
+
+#user1, #user2, #user3 {
+  margin-top: 40px;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+}

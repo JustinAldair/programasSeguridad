@@ -1,0 +1,127 @@
+body {
+  background: linear-gradient(to bottom, #4287f5, #a77df0);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: inline-block;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#sum-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#spread-message-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-container th {
+  background-color: #7C70FF;
+  color: #fff;
+}
+
+.button {
+  background-color: #7C70FF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #BA61FF;
+}
+
+.user-container {
+  display: inline-block;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#sum-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#spread-message-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  font-weight: bold;
+}
+
+h1, h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.row-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}

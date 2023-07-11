@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="password"], select, button {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  input[readonly] {
+    background-color: #f7f7f7;
+  }
+  

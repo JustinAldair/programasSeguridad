@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  animation: gradientAnimation 10s infinite linear;
+  background: linear-gradient(-45deg, #f8f8f8, #bfc7e0, #a597e2, #98a5f1);
+  background-size: 400% 400%;
+}
+
+h1 {
+  color: var(--color-text);
+  text-align: center;
+  margin-top: 50px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.left-section {
+  margin-right: 20px;
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--color-text);
+}
+
+button {
+  background-color: var(--color-accent);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-top: 5px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #4e12bd;
+  color: #fff;
+}
+
+#output {
+  margin-top: 20px;
+  margin: 0 auto; /* Centrar el contenedor del resultado */
+  width: fit-content; /* Ajustar el ancho del contenedor al contenido */
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 4px; /* Borde redondeado */
+  padding: 20px; /* Espacio interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+#output2 {
+  background-color: rgba(255, 255, 255, 0.5); /* Establece un fondo semitransparente */
+  border-radius: 10px; /* Agrega esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Aplica una sombra */
+  backdrop-filter: blur(5px); /* Agrega un desenfoque al fondo */
+  padding: 20px; /* Añade un espacio interno para el contenido */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;/* Borde de tabla */
+  padding: 8px;
+}
+
+th {
+  background-color: #66087e; /*Color de los campos  */
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;/*Color de las celdas */
+
+}
+
+tr:hover {
+  background-color: #0882d3a4; /* Cuando paso al cursor arriva */
+
+}
+
+#stats {
+  text-align: left;
+  margin-top: 20px;
+}
+
+#stats p {
+  margin: 5px;
+  color: var(--color-text);
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+
+/* boton */
+:root {
+  --color-text: #333;
+  --color-accent: #2600ff;
+}

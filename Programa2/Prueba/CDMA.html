@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDMA</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <script src="CDMA.js"></script>
+</head>
+<body>
+  <h1>CDMA</h1>
+  <div class="container">
+    <h2>User 1</h2>
+    <label for="user1-data">Data:</label>
+    <input type="text" id="user1-data">
+    <label for="user1-code">Spreading Code:</label>
+    <input type="text" id="user1-code">
+    <canvas id="user1-graph" width="400" height="200"></canvas>
+  </div>
+
+  <div class="container">
+    <h2>User 2</h2>
+    <label for="user2-data">Data:</label>
+    <input type="text" id="user2-data">
+    <label for="user2-code">Spreading Code:</label>
+    <input type="text" id="user2-code">
+    <canvas id="user2-graph" width="400" height="200"></canvas>
+  </div>
+
+  <div class="container">
+    <h2>User 3</h2>
+    <label for="user3-data">Data:</label>
+    <input type="text" id="user3-data">
+    <label for="user3-code">Spreading Code:</label>
+    <input type="text" id="user3-code">
+    <canvas id="user3-graph" width="400" height="200"></canvas>
+  </div>
+
+  <div class="container">
+    <h2>Sum</h2>
+    <canvas id="sum-graph" width="400" height="200"></canvas>
+  </div>
+
+  <div id="spread-message-container"></div>
+  <div id="xor-table-container"></div>
+
+  <button onclick="calculateGraphs()">Calcular Gráficas</button>
+  
+  <script>
+    // Aquí va el código JavaScript
+  </script>
+</body>
+</html>

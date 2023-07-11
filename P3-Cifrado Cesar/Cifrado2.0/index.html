@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cifrado César</title>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <h1>Cifrado César</h1>
+
+    <label for="mensaje">Mensaje:</label>
+    <input type="text" id="mensaje" /><br />
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="text" id="contrasena" /><br />
+
+    <label for="abecedario">Abecedario:</label>
+    <select id="abecedario">
+        <option value="norteamericano">Norteamericano (26 letras)</option>
+        <option value="latinoamericano">Latinoamericano (27 letras)</option>
+    </select><br />
+
+    <button onclick="cifrar()">Cifrar</button>
+    <button onclick="descifrar()">Descifrar</button><br />
+
+    <label for="resultadoCifrado">Resultado cifrado:</label>
+    <input type="text" id="resultadoCifrado" /><br />
+
+    <label for="resultadoDescifrado">Resultado descifrado:</label>
+    <input type="text" id="resultadoDescifrado" />
+</body>
+</html>

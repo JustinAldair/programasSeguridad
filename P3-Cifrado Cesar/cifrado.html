@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cifrado de César</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+  <h1>Cifrado de César</h1>
+
+  <label for="mensaje">Mensaje:</label>
+  <input type="text" id="mensaje" oninput="realizarCifradoDescifrado()">
+
+  <h2>Cifrado</h2>
+  <label for="mensajeCifrado">Mensaje cifrado:</label>
+  <input type="text" id="mensajeCifrado" readonly>
+
+  <h2>Descifrado</h2>
+  <label for="mensajeDescifrado">Mensaje descifrado:</label>
+  <input type="text" id="mensajeDescifrado" readonly>
+
+  <label for="password">Contraseña:</label>
+  <input type="password" id="password" oninput="realizarCifradoDescifrado()">
+
+  <button onclick="cifrarTexto()">Cifrar</button>
+  <button onclick="descifrarTexto()">Descifrar</button>
+
+  <script src="cifrado.js"></script>
+</body>
+</html>

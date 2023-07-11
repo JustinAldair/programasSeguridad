@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Gráficas de Bits</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Gráficas de Bits</h1>
+    <div class="chartContainer">
+      <div class="chartSection">
+        <h2>Gráfica de 0s y 1s</h2>
+        <div class="legendContainer" id="legendContainer1"></div>
+        <canvas id="chart1"></canvas>
+      </div>
+      <div class="chartSection">
+        <h2>Gráfica de combinaciones de 2 bits</h2>
+        <div class="legendContainer" id="legendContainer2"></div>
+        <canvas id="chart2"></canvas>
+      </div>
+      <div class="chartSection">
+        <h2>Gráfica de combinaciones de 3 bits</h2>
+        <div class="legendContainer" id="legendContainer3"></div>
+        <canvas id="chart3"></canvas>
+      </div>
+      <div class="chartSection">
+        <h2>Gráfica de combinaciones de 4 bits</h2>
+        <div class="legendContainer" id="legendContainer4"></div>
+        <canvas id="chart4"></canvas>
+      </div>
+      <div class="chartSection">
+        <h2>Gráfica de combinaciones de 5 bits</h2>
+        <div class="legendContainer" id="legendContainer5"></div>
+        <canvas id="chart5"></canvas>
+      </div>
+      <div class="chartSection">
+        <h2>Gráfica de combinaciones de 6 bits</h2>
+        <div class="legendContainer" id="legendContainer6"></div>
+        <canvas id="chart6"></canvas>
+      </div>
+      
+      <div class="chartSection">
+        <h2>Gráfica de combinaciones de 7 bits</h2>
+        <div class="legendContainer" id="legendContainer7"></div>
+        <canvas id="chart7"></canvas>
+      </div>
+      
+      <div class="chartSection">
+        <h2>Gráfica de combinaciones de 8 bits</h2>
+        <div class="legendContainer" id="legendContainer8"></div>
+        <canvas id="chart8"></canvas>
+      </div>
+            
+    </div>
+    <div class="inputContainer">
+      <textarea id="inputText" placeholder="Ingresa la secuencia de bits"></textarea>
+      <button id="countButton">Contar y Graficar</button>
+      <input type="file" id="fileInput">
+    </div>
+  </div>
+</body>
+
+</html>
